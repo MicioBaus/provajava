@@ -1,12 +1,12 @@
-package com.arzamed.demohello;
+package com.arzamed.hello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoHelloApplication {
+public class HelloApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoHelloApplication.class, args);
+        SpringApplication.run(HelloApplication.class, args);
     }
 }
